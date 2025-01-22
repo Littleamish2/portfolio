@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 import About from "@/components/About";
 
 export const metadata: Metadata = {
-  title: "About | John Doe",
+  title: "About | Matthew Bach",
   description:
     "Matthew Bach",
 };

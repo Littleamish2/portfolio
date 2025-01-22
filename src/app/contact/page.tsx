@@ -8,7 +8,7 @@ import { Metadata } from "next";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Contact | John Doe",
+  title: "Contact | Matthew Bach",
   description:
     "Matthew Bach ",
 };
