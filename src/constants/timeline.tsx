@@ -17,8 +17,8 @@ export const timeline = [
     date: "2024 - Present",
     description: "Supporting theatrical creativity and craftsmanship",
     responsibilities: [
-      "Served customers efficiently with fellow cashiers at UVA home football games",
-      "Upsold products, increasing sales per transaction",
+      "Supported the UVA Drama technical director's work as an assistant",
+      "Learned various equipment, including fly systems, Genie Lifts, power tools, etc.",
     ],
   },
   {
