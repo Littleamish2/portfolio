@@ -12,7 +12,6 @@ import { Badge } from "./Badge";
 import { AnimatePresence, motion } from "framer-motion";
 import { IconLayoutSidebarRightCollapse } from "@tabler/icons-react";
 import { isMobile } from "@/lib/utils";
-import profilePic from "/images/Lumatic_Headshot2.jpg";
 
 
 export const Sidebar = () => {
@@ -108,7 +107,7 @@ const SidebarHeader = () => {
   return (
     <div className="flex space-x-2">
       <Image
-        src={profilePic}
+        src="../../public/images/Lumatic_Headshot2.jpg"
         alt="Avatar"
         height="40"
         width="40"
