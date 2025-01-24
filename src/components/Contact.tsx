@@ -1,7 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Resend } from 'resend';
-
+//import { Resend } from 'resend';
 
 
 
@@ -21,7 +20,7 @@ const defaultFormState = {
 };
 export const Contact = () => {
   const [formData, setFormData] = useState(defaultFormState);
-  //const resend = new Resend('');
+  //const resend = new Resend('api key here');
 
   const handleSubmit = (e: any) => {
     e.preventDefault();
@@ -32,6 +31,7 @@ export const Contact = () => {
       html: formData.message.value
     });*/
     console.log(formData);
+    formData.email.error, formData.email.value, formData.message.value, formData.message.value, formData.name.value, formData.name.value = '';
   };
   return (
     <form className="form" onSubmit={handleSubmit}>
