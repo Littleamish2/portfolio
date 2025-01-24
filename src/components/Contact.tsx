@@ -1,5 +1,9 @@
 "use client";
 import React, { useState } from "react";
+import { Resend } from 'resend';
+
+
+
 
 const defaultFormState = {
   name: {
@@ -17,10 +21,16 @@ const defaultFormState = {
 };
 export const Contact = () => {
   const [formData, setFormData] = useState(defaultFormState);
+  const resend = new Resend('re_E3srtuh9_GHgp6foJZbewKbyAoNWKoGY3');
 
   const handleSubmit = (e: any) => {
     e.preventDefault();
-    // Write your submit logic here
+    resend.emails.send({
+      from: formData.email.value,
+      to: 'vty8ec@virginia.edu',
+      subject: 'Email From ' + formData.name.value + '- BananaBanana1234',
+      html: formData.message.value
+    });
     console.log(formData);
   };
   return (
