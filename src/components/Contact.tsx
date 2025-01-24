@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 
 //import { Resend } from 'resend';
 
@@ -21,7 +21,6 @@ const defaultFormState = {
 };
 export const Contact = () => {
   const [formData, setFormData] = useState(defaultFormState);
-  const textareaRef = useRef<HTMLTextAreaElement>(null!);
   //const resend = new Resend('api key here');
 
   const handleSubmit = (e: any) => {
@@ -33,7 +32,6 @@ export const Contact = () => {
       html: formData.message.value
     });*/
     console.log(formData);
-    textareaRef.current.value = '';
   };
   return (
     <form className="form" onSubmit={handleSubmit}>
@@ -72,7 +70,6 @@ export const Contact = () => {
       <div>
         <textarea
           placeholder="Your Message"
-          ref={textareaRef}
           rows={10}
           className="bg-neutral-100 focus:outline-none focus:ring-2 focus:ring-neutral-200 px-2 mt-4 py-2 rounded-md text-sm text-neutral-700 w-full"
           value={formData.message.value}
