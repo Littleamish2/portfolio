@@ -21,7 +21,7 @@ const defaultFormState = {
 };
 export const Contact = () => {
   const [formData, setFormData] = useState(defaultFormState);
-  const resend = new Resend('re_E3srtuh9_GHgp6foJZbewKbyAoNWKoGY3');
+  const resend = new Resend('re_cXHKEqKi_K2F2xFSYQxjF38qJJ9hbqAv4');
 
   const handleSubmit = (e: any) => {
     e.preventDefault();
