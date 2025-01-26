@@ -1,19 +1,16 @@
 "use client";
 import { Paragraph } from "@/components/Paragraph";
 import Image from "next/image";
-import Sabre from "@/Sabre2_PCB.jpg";
-import CentralPark from "@/CentralPark.jpg";
-import NASA from "@/NASA_Lab.jpg";
-import Set from "@/SetPicture.jpg";
+
 
 import { motion } from "framer-motion";
 
 export default function About() {
   const images = [
-    Sabre,
-    CentralPark,
-    NASA,
-    Set,
+    "@/Sabre2_PCB.jpg",
+    "@/CentralPark.jpg",
+    "@/NASA_Lab.jpg",
+    "@/SetPicture.jpg",
   ];
   return (
     <div>
