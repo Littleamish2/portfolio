@@ -6,10 +6,10 @@ import { motion } from "framer-motion";
 
 export default function About() {
   const images = [
-    "https://images.unsplash.com/photo-1692544350322-ac70cfd63614?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60",
-    "https://images.unsplash.com/photo-1692374227159-2d3592f274c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60",
-    "https://images.unsplash.com/photo-1692005561659-cdba32d1e4a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
-    "https://images.unsplash.com/photo-1692445381633-7999ebc03730?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzM3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    "@/Sabre2_PCB.jpg",
+    "@/CentralPark.jpg",
+    "@/NASA_Lab.jpg",
+    "@/SetPicture.jpg",
   ];
   return (
     <div>
@@ -71,47 +71,42 @@ export default function About() {
 
       <div className="max-w-4xl">
         <Paragraph className=" mt-4">
-          Hey there, I&apos;m Matthew Bach - a passionate developer, avid writer,
-          and a connoisseur of awesome design. Welcome to my corner of the
-          digital world!
-        </Paragraph>
-        <Paragraph className=" mt-4">
-          Since the early days of my journey, I&apos;ve been captivated by the
-          art of crafting exceptional digital experiences. As a developer, I
-          thrive on turning lines of code into functional and elegant solutions.
-          My goal is to not just create software, but to build digital marvels
-          that seamlessly merge form and function.
+          Hi, I&apos;m Matthew Bach &mdash; student, improviser, coder, and a tech geek.
+          My time at UVA has allowed me to explore topics like machine learning, 
+          web development, embedded devices, and more while pursuing an electrical 
+          and computer engineering double major. Welcome to my portfolio!
         </Paragraph>
 
         <Paragraph className=" mt-4">
-          But my journey doesn&apos;t stop at coding. With a heart full of words
-          and a mind brimming with ideas, I&apos;ve ventured into the realm of
-          writing. From tech articles that unravel complex concepts to creative
-          tales that ignite the imagination, I weave words to inform, entertain,
-          and inspire.
+          I currently specialize in Python &lpar;NumPy, matplotlib&rpar;, C, C&plus;&plus;, 
+          and Java. I also have experience in several design tools like AutoCAD, SketchUp, 
+          Bambu Lab, Altium Designer, Quartus Prime, and Multisim. My focus going forward 
+          will be to improve my cloud development skills and explore more of electrical engineering.
+        </Paragraph>
+
+        <Paragraph className=" mt-4">
+          Outside of programming, performing has been my great passion for several years. 
+          Originally, I was an actor in several plays and musicals, finding enjoyment in 
+          Shakespeare and Oscar Wilde. Through my acting experience, I also enjoyed hands-on 
+          experience building sets! Now, I prefer improvisational performances through my 
+          current improv group, The Whethermen.
+        </Paragraph>
+
+        <Paragraph className=" mt-4">
+          The outdoors also drags me away from the keyboard&semi; I cherish Shenandoah hikes 
+          and mountain bike rides. Some of my favorite hikes have included Old Rag Mountain 
+          and Black Rock Summit, and Pocahontas State Park has some amazing bike trails.
         </Paragraph>
         <Paragraph className=" mt-4">
-          What sets me apart is my unwavering appreciation for design. I believe
-          that aesthetics and usability go hand in hand. My eye for awesome
-          design ensures that every project I undertake not only works
-          flawlessly under the hood but also looks stunning on the surface.
+          Academically, I love physics and space! My two visits to NASA have been extraordinarily 
+          informative&semi; NASA Langley&apos;s wind tunnel being one of the best places I visited. 
+          While originally I wanted to pursue a double major with math, my physics interest 
+          continues in my pursuit of RF engineering. 
         </Paragraph>
+
         <Paragraph className=" mt-4">
-          Through this website, I aim to share my insights, experiences, and
-          creations with you. Whether you&apos;re a fellow developer seeking
-          solutions, a fellow writer in search of inspiration, or simply someone
-          who appreciates the finer aspects of design, there&apos;s something
-          here for you.
-        </Paragraph>
-        <Paragraph className=" mt-4">
-          Join me on this journey of bytes and narratives, logic and creativity,
-          code and prose. Together, we can explore the boundless possibilities
-          of technology and storytelling, all while reveling in the sheer beauty
-          of thoughtful design.
-        </Paragraph>
-        <Paragraph className=" mt-4">
-          Thank you for being here, and I can&apos;t wait to embark on this
-          adventure with you.
+          I&apos;m excited to continue building my technical skills and apply them toward 
+          passion projects!
         </Paragraph>
       </div>
     </div>
