@@ -14,7 +14,11 @@ export default function Home() {
       <Paragraph className="max-w-xl mt-4">
         I&apos;m a UVA Engineering student that loves learning!
       </Paragraph>
-      
+
+      <Paragraph className="max-w-xl mt-4">
+        Feel free to explore my portfolio and learn more about me.
+      </Paragraph>
+
       <Heading
         as="h2"
         className="font-black text-lg md:text-lg lg:text-lg mt-20 mb-4"
