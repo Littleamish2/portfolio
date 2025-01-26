@@ -12,7 +12,7 @@ import { Badge } from "./Badge";
 import { AnimatePresence, motion } from "framer-motion";
 import { IconLayoutSidebarRightCollapse } from "@tabler/icons-react";
 import { isMobile } from "@/lib/utils";
-import profilePic from '/images/Lumatic_Headshot.jpg'
+import profilePic from './public/images/Lumatic_Headshot.jpg'
 
 
 export const Sidebar = () => {
