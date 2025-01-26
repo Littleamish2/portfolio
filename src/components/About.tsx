@@ -94,13 +94,13 @@ export default function About() {
         </Paragraph>
 
         <Paragraph className=" mt-4">
-          The outdoors also drags me away from the keyboard&semi; I cherish Shenandoah hikes 
+          The outdoors also drags me away from the keyboard; I cherish Shenandoah hikes 
           and mountain bike rides. Some of my favorite hikes have included Old Rag Mountain 
           and Black Rock Summit, and Pocahontas State Park has some amazing bike trails.
         </Paragraph>
         <Paragraph className=" mt-4">
           Academically, I love physics and space! My two visits to NASA have been extraordinarily 
-          informative&semi; NASA Langley&apos;s wind tunnel being one of the best places I visited. 
+          informative; NASA Langley&apos;s wind tunnel being one of the best places I visited. 
           While originally I wanted to pursue a double major with math, my physics interest 
           continues in my pursuit of RF engineering. 
         </Paragraph>
