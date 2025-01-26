@@ -82,7 +82,7 @@ export default function About() {
         </Paragraph>
 
         <Paragraph className=" mt-4">
-          I currently specialize in Python &lpar;NumPy, matplotlib&rpar;, C, C&plus;&plus;, 
+          I currently specialize in Python (NumPy, matplotlib), C, C++, 
           and Java. I also have experience in several design tools like AutoCAD, SketchUp, 
           Bambu Lab, Altium Designer, Quartus Prime, and Multisim. My focus going forward 
           will be to improve my cloud development skills and explore more of electrical engineering.
