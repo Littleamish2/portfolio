@@ -110,8 +110,8 @@ const SidebarHeader = () => {
       <Image
         src={profilePic}
         alt="Avatar"
-        height="100"
-        //width="40"
+        //height="100"
+        width="100"
         className="object-cover object-top rounded-full flex-shrink-0"
       />
       <div className="flex text-sm flex-col">
