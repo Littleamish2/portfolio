@@ -32,7 +32,7 @@ export default function About() {
           >
             <Image
               src={image}
-              width={200}
+              //width={200}
               height={400}
               alt="about"
               className="rounded-md object-cover transform rotate-3 shadow-xl block w-full h-40 md:h-60 hover:rotate-0 transition duration-200"
@@ -98,6 +98,7 @@ export default function About() {
           and mountain bike rides. Some of my favorite hikes have included Old Rag Mountain 
           and Black Rock Summit, and Pocahontas State Park has some amazing bike trails.
         </Paragraph>
+
         <Paragraph className=" mt-4">
           Academically, I love physics and space! My two visits to NASA have been extraordinarily 
           informative; NASA Langley&apos;s wind tunnel being one of the best places I visited. 
