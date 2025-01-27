@@ -17,10 +17,10 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   const images = [
-    "@/Sabre2_PCB.jpg",
-    "@/CentralPark.jpg",
-    "@/NASA_Lab.jpg",
-    "@/SetPicture.jpg",
+    "@/Sabre2_PCB.png",
+    "@/CentralPark.png",
+    "@/NASA_Lab.png",
+    "@/SetPicture.png",
   ];
   return (
     <Container>

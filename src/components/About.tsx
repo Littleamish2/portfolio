@@ -7,10 +7,10 @@ import { motion } from "framer-motion";
 
 export default function About() {
   const images = [
-    "@/Sabre2_PCB.jpg",
-    "@/CentralPark.jpg",
-    "@/NASA_Lab.jpg",
-    "@/SetPicture.jpg",
+    "@/Sabre2_PCB.png",
+    "@/CentralPark.png",
+    "@/NASA_Lab.png",
+    "@/SetPicture.png",
   ];
   return (
     <div>
