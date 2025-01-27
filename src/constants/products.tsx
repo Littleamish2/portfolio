@@ -1,11 +1,11 @@
 import sidefolioAceternity from "public/images/sidefolio-aceternity-2.png";
 import sidefolioAceternity2 from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAlgochurn from "public/images/sidefolio-algochurn.png";
+/*import sidefolioAlgochurn from "public/images/sidefolio-algochurn.png";
 import sidefolioAlgochurn2 from "public/images/sidefolio-algochurn.png";
 import sidefolioMoonbeam from "public/images/sidefolio-moonbeam.png";
 import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
 import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
-import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
+import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";*/
 
 export const products = [
   {
@@ -38,7 +38,7 @@ export const products = [
       </div>
     ),
   },
-  {
+  /*{
     href: "https://algochurn.com",
     title: "Algochurn",
     description:
@@ -127,5 +127,5 @@ export const products = [
         </p>{" "}
       </div>
     ),
-  },
+  },*/
 ];
