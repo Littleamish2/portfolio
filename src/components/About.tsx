@@ -1,16 +1,19 @@
 "use client";
 import { Paragraph } from "@/components/Paragraph";
 import Image from "next/image";
-
+import pic1 from "@/Sabre2_PCB.png"
+import pic2 from "@/CentralPark.png"
+import pic3 from "@/NASA_Lab.png"
+import pic4 from "@/SetPicture.png"
 
 import { motion } from "framer-motion";
 
 export default function About() {
   const images = [
-    "@/Sabre2_PCB.png",
-    "@/CentralPark.png",
-    "@/NASA_Lab.png",
-    "@/SetPicture.png",
+    {pic1},
+    {pic2},
+    {pic3},
+    {pic4},
   ];
   return (
     <div>
@@ -41,28 +44,28 @@ export default function About() {
         ))}*/}
          
         <Image
-          src="@/Sabre2_PCB.png"
+          src={pic1}
           width={200}
           height={400}
           alt="about"
           className="rounded-md object-cover transform rotate-3 shadow-xl block w-full h-40 md:h-60 hover:rotate-0 transition duration-200"
         />
         <Image
-          src="@/CentralPark.png"
+          src={pic2}
           width={200}
           height={400}
           alt="about"
           className="rounded-md object-cover transform -rotate-3 shadow-xl block w-full h-40 md:h-60  hover:rotate-0 transition duration-200"
         />
         <Image
-          src="@/NASA_Lab.png"
+          src={pic3}
           width={200}
           height={400}
           alt="about"
           className="rounded-md object-cover transform rotate-3 shadow-xl block w-full h-40 md:h-60  hover:rotate-0 transition duration-200"
         />
         <Image
-          src="@/SetPicture.png"
+          src={pic4}
           width={200}
           height={400}
           alt="about"
