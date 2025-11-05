@@ -15,7 +15,7 @@ export default function Home() {
         I&apos;m a UVA Engineering student that loves learning!
       </Paragraph>
 
-      <Paragraph className="max-w-xl mt-4">
+      {/* <Paragraph className="max-w-xl mt-4">
         Feel free to explore my portfolio and learn more about me.
       </Paragraph>
 
@@ -25,7 +25,7 @@ export default function Home() {
       >
         What I&apos;ve been working on
       </Heading>
-      <Products />
+      <Products /> */}
       <TechStack />
     </Container>
   );
